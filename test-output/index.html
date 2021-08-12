@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\bijes\AppData\Local\Temp\testng-eclipse--1547492264\testng-customsuite.xml</span>
+                    <span>C:\Users\bijes\AppData\Local\Temp\testng-eclipse--323342957\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="hotelBooking.HotelBooking" hash-for-method="selectRoomButton">selectRoomButton</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="hotelBooking.RunnerClass" hash-for-method="book">book</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -116,17 +116,27 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="hotelBooking.HotelBooking" hash-for-method="preCondition">preCondition</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="hotelBooking.RunnerClass" hash-for-method="bookNow">bookNow</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="hotelBooking.HotelBooking" hash-for-method="resultPage">resultPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="hotelBooking.RunnerClass" hash-for-method="resultPage">resultPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="hotelBooking.HotelBooking" hash-for-method="viewRoom">viewRoom</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="hotelBooking.RunnerClass" hash-for-method="searchHotels">searchHotels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="hotelBooking.RunnerClass" hash-for-method="selectRoomButton">selectRoomButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="hotelBooking.RunnerClass" hash-for-method="viewRoom">viewRoom</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -144,23 +154,23 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">hotelBooking.HotelBooking</span>
+              <span class="class-name">hotelBooking.RunnerClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="selectRoomButton">
-                  </a> <!-- selectRoomButton -->
-                  <span class="method-name">selectRoomButton</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[7]/div[3]/div[2]/div[2]/div[6]/a[2]&quot;}
+                  <a name="book">
+                  </a> <!-- book -->
+                  <span class="method-name">book</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;select.sel&quot;}
   (Session info: chrome=92.0.4515.131)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-SG3OI6V4&apos;, ip: &apos;192.168.0.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\bijes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60910}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8892a43be4b0640a26641e16ce3b63ad
-*** Element info: {Using=xpath, value=/html[1]/body[1]/div[7]/div[3]/div[2]/div[2]/div[6]/a[2]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\bijes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a7b000b25b22b707f101a5ae8e8485b
+*** Element info: {Using=css selector, value=select.sel}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -172,10 +182,11 @@ Session ID: 8892a43be4b0640a26641e16ce3b63ad
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at hotelBooking.HotelBooking.selectRoomButton(HotelBooking.java:53)
+	at hotelBooking.HotelBooking.enterdata(HotelBooking.java:41)
+	at hotelBooking.RunnerClass.book(RunnerClass.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -213,14 +224,14 @@ Session ID: 8892a43be4b0640a26641e16ce3b63ad
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">hotelBooking.HotelBooking</span>
+              <span class="class-name">hotelBooking.RunnerClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="preCondition">
-                  </a> <!-- preCondition -->
-                  <span class="method-name">preCondition</span>
+                  <a name="bookNow">
+                  </a> <!-- bookNow -->
+                  <span class="method-name">bookNow</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -228,6 +239,24 @@ Session ID: 8892a43be4b0640a26641e16ce3b63ad
                   <a name="resultPage">
                   </a> <!-- resultPage -->
                   <span class="method-name">resultPage</span>
+                  <em>
+(To verify results are present)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchHotels">
+                  </a> <!-- searchHotels -->
+                  <span class="method-name">searchHotels</span>
+                  <em>
+(To search a Hotel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectRoomButton">
+                  </a> <!-- selectRoomButton -->
+                  <span class="method-name">selectRoomButton</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -235,6 +264,8 @@ Session ID: 8892a43be4b0640a26641e16ce3b63ad
                   <a name="viewRoom">
                   </a> <!-- viewRoom -->
                   <span class="method-name">viewRoom</span>
+                  <em>
+(To verify the view room button is working)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,7 +273,7 @@ Session ID: 8892a43be4b0640a26641e16ce3b63ad
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bijes\AppData\Local\Temp\testng-eclipse--1547492264\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\bijes\AppData\Local\Temp\testng-eclipse--323342957\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -251,7 +282,7 @@ Session ID: 8892a43be4b0640a26641e16ce3b63ad
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;hotelBooking.HotelBooking&quot;/&gt;
+      &lt;class name=&quot;hotelBooking.RunnerClass&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -291,28 +322,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'preCondition')
-data.setCell(0, 2, 'hotelBooking.HotelBooking')
-data.setCell(0, 3, 5977);
+data.setCell(0, 1, 'viewRoom')
+data.setCell(0, 2, 'hotelBooking.RunnerClass')
+data.setCell(0, 3, 6445);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'selectRoomButton')
-data.setCell(1, 2, 'hotelBooking.HotelBooking')
-data.setCell(1, 3, 5192);
+data.setCell(1, 1, 'searchHotels')
+data.setCell(1, 2, 'hotelBooking.RunnerClass')
+data.setCell(1, 3, 4010);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'viewRoom')
-data.setCell(2, 2, 'hotelBooking.HotelBooking')
-data.setCell(2, 3, 4202);
+data.setCell(2, 1, 'bookNow')
+data.setCell(2, 2, 'hotelBooking.RunnerClass')
+data.setCell(2, 3, 3179);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'resultPage')
-data.setCell(3, 2, 'hotelBooking.HotelBooking')
-data.setCell(3, 3, 10);
+data.setCell(3, 1, 'book')
+data.setCell(3, 2, 'hotelBooking.RunnerClass')
+data.setCell(3, 3, 2050);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'selectRoomButton')
+data.setCell(4, 2, 'hotelBooking.RunnerClass')
+data.setCell(4, 3, 2010);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'resultPage')
+data.setCell(5, 2, 'hotelBooking.RunnerClass')
+data.setCell(5, 3, 12);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -338,32 +377,40 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">hotelBooking.HotelBooking</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">hotelBooking.RunnerClass</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">preCondition</span>
-                <span class="method-start">2408 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">book</span>
+                <span class="method-start">2791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchHotels</span>
+                <span class="method-start">4846 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">resultPage</span>
-                <span class="method-start">8390 ms</span>
+                <span class="method-start">8861 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">viewRoom</span>
-                <span class="method-start">8402 ms</span>
+                <span class="method-start">8875 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">selectRoomButton</span>
-                <span class="method-start">12606 ms</span>
+                <span class="method-start">15322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookNow</span>
+                <span class="method-start">17334 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">17801 ms</span>
+                <span class="method-start">20516 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

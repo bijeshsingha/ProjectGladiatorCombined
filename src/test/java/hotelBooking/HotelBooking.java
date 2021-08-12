@@ -1,58 +1,45 @@
 package hotelBooking;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Properties;
-import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
-
-import frameWork.Base;
-
-public class HotelBooking extends Base {
-	Properties prop = new Properties();
-	@Test
-	public void preCondition() throws Exception, IOException {
-		prop.load(new FileInputStream("src/test/resources/settings.property"));
-		driver.get(prop.getProperty("url"));
-		driver.findElement(By.cssSelector(prop.getProperty("hotelTab"))).click();
-		driver.findElement(By.cssSelector(prop.getProperty("search"))).click();
+public class HotelBooking {
+	WebDriver driver;
+	public HotelBooking(WebDriver driver) throws FileNotFoundException, IOException {
+		this.driver = driver;
 	}
+	
+	By e_viewRoom = By.className("bookhBtn");
+	By e_selectRoom = By.className("ouline-btn");
+	By e_bookNow = By.cssSelector("a.fill-btn");
+	By e_title = By.cssSelector("select.sel");
+	public void ClickViewRoom() throws Exception, Exception {
 
-	@Test(dependsOnMethods = "preCondition")
-	public void resultPage() throws Exception {
-		Assert.assertTrue(driver.getCurrentUrl().contains("newhotel/Hotel/HotelListing?"));
-	}
-
-	@Test(dependsOnMethods = "resultPage")
-	public void viewRoom() throws Exception {
-		
 		WebDriverWait wt = new WebDriverWait(driver, 20);
-		wt.until(ExpectedConditions.visibilityOfElementLocated(By.className(prop.getProperty("viewRoom"))));
-		
-		driver.findElement(By.className(prop.getProperty("viewRoom"))).click();
-		
-		Set<String> ids = driver.getWindowHandles();
-		List<String> idlist = new ArrayList<String>(ids);
-		driver.switchTo().window(idlist.get(1));
-		
-		Assert.assertTrue(driver.getCurrentUrl().contains("newhotel/Hotel/HotelDescription?"));
-	}
+		wt.until(ExpectedConditions.visibilityOfElementLocated(e_viewRoom));
 
-	@Test(dependsOnMethods = "viewRoom")
-	public void selectRoomButton() throws Exception {
-		driver.findElement(By.className("ouline-btn")).click();
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("/html[1]/body[1]/div[7]/div[3]/div[2]/div[2]/div[6]/a[2]")).click();
-		//WebDriverWait wt = new WebDriverWait(driver, 20);
-		//wt.until(ExpectedConditions.visibilityOfElementLocated(By.className(prop.getProperty("bookNow"))));
-		//Assert.assertTrue("");
+		driver.findElement(e_viewRoom).click();
+	}
+	
+	public void ClickSelectRoom() {
+		driver.findElement(e_selectRoom).click();
+	}
+	
+	public void clickBookNow() {
+		driver.findElement(e_bookNow).click();
+	}
+	public void enterdata(String fName, String Lname, String email, long phno ) {
+		WebElement E = driver.findElement(e_title);
+		Select title = new Select(E);
+		title.selectByVisibleText("Mrs.");
 	}
 }

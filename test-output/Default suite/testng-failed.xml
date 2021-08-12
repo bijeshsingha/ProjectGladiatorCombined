@@ -3,16 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hotelBooking.HotelBooking">
+      <class name="hotelBooking.RunnerClass">
         <methods>
           <include name="beforeTest"/>
-          <include name="preCondition"/>
           <include name="afterTest"/>
-          <include name="resultPage"/>
-          <include name="viewRoom"/>
-          <include name="selectRoomButton"/>
+          <include name="book"/>
         </methods>
-      </class> <!-- hotelBooking.HotelBooking -->
+      </class> <!-- hotelBooking.RunnerClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

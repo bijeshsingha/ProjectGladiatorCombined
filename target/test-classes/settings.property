@@ -1,5 +1,7 @@
 url = https://www.easemytrip.com/
+chromedriver = src/test/resources/drivers/chromedriver.exe
 hotelTab = a[href='https://www.easemytrip.com/hotels/']
 search = input[value='Search']
 viewRoom = bookhBtn
-bookNow = /html[1]/body[1]/div[7]/div[3]/div[6]/div[2]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/a[1]
+selectRoom = ouline-btn
+bookNow = btnsrch
