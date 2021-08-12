@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-12T12:33:22Z" name="Default suite" finished-at="2021-08-12T12:33:38Z" duration-ms="16008">
+    <groups>
+    </groups>
+    <test started-at="2021-08-12T12:33:22Z" name="Default test" finished-at="2021-08-12T12:33:38Z" duration-ms="16008">
+      <class name="emtHotel.NewTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:emtHotel.NewTest@6a03bcb1]" started-at="2021-08-12T12:33:22Z" name="beforeTest" finished-at="2021-08-12T12:33:25Z" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="landingPage()[pri:0, instance:emtHotel.NewTest@6a03bcb1]" started-at="2021-08-12T12:33:25Z" name="landingPage" description="To verify hotel landing page" finished-at="2021-08-12T12:33:27Z" duration-ms="2514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+        <test-method signature="checkCity()[pri:0, instance:emtHotel.NewTest@6a03bcb1]" started-at="2021-08-12T12:33:27Z" name="checkCity" description="To verify blank entry in city field
+" finished-at="2021-08-12T12:33:32Z" depends-on-methods="emtHotel.NewTest.landingPage" duration-ms="4275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCity -->
+        <test-method signature="sameDates()[pri:0, instance:emtHotel.NewTest@6a03bcb1]" started-at="2021-08-12T12:33:32Z" name="sameDates" description="To verify same check in check out date inputs" finished-at="2021-08-12T12:33:33Z" depends-on-methods="emtHotel.NewTest.landingPage" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sameDates -->
+        <test-method signature="searchBar()[pri:0, instance:emtHotel.NewTest@6a03bcb1]" started-at="2021-08-12T12:33:33Z" name="searchBar" description="To verify an expired(date before today&#039;s date) check in and check out date input" finished-at="2021-08-12T12:33:36Z" depends-on-methods="emtHotel.NewTest.sameDates" duration-ms="3575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:emtHotel.NewTest@6a03bcb1]" started-at="2021-08-12T12:33:36Z" name="afterTest" finished-at="2021-08-12T12:33:38Z" duration-ms="2186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- emtHotel.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
