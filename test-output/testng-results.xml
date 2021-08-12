@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="13" total="16" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29493" started-at="2021-08-12T17:18:13 IST" finished-at="2021-08-12T17:18:43 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29493" started-at="2021-08-12T17:18:13 IST" finished-at="2021-08-12T17:18:43 IST">
+      <class name="flight2.FlightScript2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:flight2.FlightScript2@57855c9a]" name="beforeTest" is-config="true" duration-ms="6996" started-at="2021-08-12T17:18:13 IST" finished-at="2021-08-12T17:18:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="aPropLoadMethod()[pri:1, instance:flight2.FlightScript2@57855c9a]" name="aPropLoadMethod" duration-ms="17" started-at="2021-08-12T17:18:20 IST" finished-at="2021-08-12T17:18:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aPropLoadMethod -->
+        <test-method status="PASS" signature="tc_reviewdetails03(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:flight2.FlightScript2@57855c9a]" name="tc_reviewdetails03" duration-ms="9077" started-at="2021-08-12T17:18:22 IST" data-provider="dp1" depends-on-methods="flight2.FlightScript2.aPropLoadMethod" finished-at="2021-08-12T17:18:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kenadams@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ken]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adams]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.999992222E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_reviewdetails03 -->
+        <test-method status="PASS" signature="tc_reviewdetails04(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:flight2.FlightScript2@57855c9a]" name="tc_reviewdetails04" duration-ms="11599" started-at="2021-08-12T17:18:31 IST" data-provider="dp1" depends-on-methods="flight2.FlightScript2.aPropLoadMethod" finished-at="2021-08-12T17:18:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kenadams@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ken]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adams]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.999992222E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_reviewdetails04 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:flight2.FlightScript2@57855c9a]" name="afterTest" is-config="true" duration-ms="186" started-at="2021-08-12T17:18:43 IST" finished-at="2021-08-12T17:18:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- flight2.FlightScript2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
