@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="13" total="16" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29493" started-at="2021-08-12T17:18:13 IST" finished-at="2021-08-12T17:18:43 IST">
+  <suite name="Default suite" duration-ms="199453" started-at="2021-08-13T18:15:29 IST" finished-at="2021-08-13T18:18:49 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29493" started-at="2021-08-12T17:18:13 IST" finished-at="2021-08-12T17:18:43 IST">
-      <class name="flight2.FlightScript2">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:flight2.FlightScript2@57855c9a]" name="beforeTest" is-config="true" duration-ms="6996" started-at="2021-08-12T17:18:13 IST" finished-at="2021-08-12T17:18:20 IST">
+    <test name="Default test" duration-ms="199453" started-at="2021-08-13T18:15:29 IST" finished-at="2021-08-13T18:18:49 IST">
+      <class name="signUp.Runner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:signUp.Runner@68bbe345]" name="beforeTest" is-config="true" duration-ms="21649" started-at="2021-08-13T18:15:30 IST" finished-at="2021-08-13T18:15:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="aPropLoadMethod()[pri:1, instance:flight2.FlightScript2@57855c9a]" name="aPropLoadMethod" duration-ms="17" started-at="2021-08-12T17:18:20 IST" finished-at="2021-08-12T17:18:20 IST">
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="7749" started-at="2021-08-13T18:15:51 IST" finished-at="2021-08-13T18:15:59 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aPropLoadMethod -->
-        <test-method status="PASS" signature="tc_reviewdetails03(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:flight2.FlightScript2@57855c9a]" name="tc_reviewdetails03" duration-ms="9077" started-at="2021-08-12T17:18:22 IST" data-provider="dp1" depends-on-methods="flight2.FlightScript2.aPropLoadMethod" finished-at="2021-08-12T17:18:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kenadams@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ken]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Adams]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.999992222E9]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- deleteCookies -->
+        <test-method status="PASS" signature="openUrl()[pri:1, instance:signUp.Runner@68bbe345]" name="openUrl" duration-ms="452" started-at="2021-08-13T18:15:59 IST" description="To check website is opening and signup option available" finished-at="2021-08-13T18:15:59 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_reviewdetails03 -->
-        <test-method status="PASS" signature="tc_reviewdetails04(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:flight2.FlightScript2@57855c9a]" name="tc_reviewdetails04" duration-ms="11599" started-at="2021-08-12T17:18:31 IST" data-provider="dp1" depends-on-methods="flight2.FlightScript2.aPropLoadMethod" finished-at="2021-08-12T17:18:43 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kenadams@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ken]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Adams]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.999992222E9]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="1397" started-at="2021-08-13T18:15:59 IST" finished-at="2021-08-13T18:16:01 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_reviewdetails04 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:flight2.FlightScript2@57855c9a]" name="afterTest" is-config="true" duration-ms="186" started-at="2021-08-12T17:18:43 IST" finished-at="2021-08-12T17:18:43 IST">
+        </test-method> <!-- deleteCookies -->
+        <test-method status="PASS" signature="signupEmail02()[pri:2, instance:signUp.Runner@68bbe345]" name="signupEmail02" duration-ms="25465" started-at="2021-08-13T18:16:01 IST" description="To check signup with valid email invalid otp" finished-at="2021-08-13T18:16:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmail02 -->
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="3019" started-at="2021-08-13T18:16:26 IST" finished-at="2021-08-13T18:16:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method status="PASS" signature="signupEmail03()[pri:3, instance:signUp.Runner@68bbe345]" name="signupEmail03" duration-ms="2120" started-at="2021-08-13T18:16:29 IST" description="To check signup with invalid email" finished-at="2021-08-13T18:16:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmail03 -->
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="3779" started-at="2021-08-13T18:16:31 IST" finished-at="2021-08-13T18:16:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method status="PASS" signature="signupPhone02()[pri:4, instance:signUp.Runner@68bbe345]" name="signupPhone02" duration-ms="15412" started-at="2021-08-13T18:16:35 IST" description="To check signup with valid mobile no. invalid otp" finished-at="2021-08-13T18:16:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupPhone02 -->
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="4852" started-at="2021-08-13T18:16:51 IST" finished-at="2021-08-13T18:16:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method status="PASS" signature="signupPhone03()[pri:5, instance:signUp.Runner@68bbe345]" name="signupPhone03" duration-ms="5251" started-at="2021-08-13T18:16:55 IST" description="To check signup with invalid mobile no." finished-at="2021-08-13T18:17:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupPhone03 -->
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="6267" started-at="2021-08-13T18:17:01 IST" finished-at="2021-08-13T18:17:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method status="PASS" signature="signupEmail01()[pri:6, instance:signUp.Runner@68bbe345]" name="signupEmail01" duration-ms="64157" started-at="2021-08-13T18:17:07 IST" description="To check signup with valid email valid otp" finished-at="2021-08-13T18:18:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmail01 -->
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="3809" started-at="2021-08-13T18:18:11 IST" finished-at="2021-08-13T18:18:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method status="PASS" signature="signupPhone01()[pri:7, instance:signUp.Runner@68bbe345]" name="signupPhone01" duration-ms="31880" started-at="2021-08-13T18:18:15 IST" description="To check signup with valid mobile no. valid otp" finished-at="2021-08-13T18:18:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupPhone01 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:signUp.Runner@68bbe345]" name="afterTest" is-config="true" duration-ms="2124" started-at="2021-08-13T18:18:47 IST" finished-at="2021-08-13T18:18:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- flight2.FlightScript2 -->
+      </class> <!-- signUp.Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

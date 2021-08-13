@@ -3,14 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="flight2.FlightScript2">
+      <class name="signUp.Runner">
         <methods>
-          <include name="afterTest"/>
+          <include name="signupEmail01"/>
+          <include name="signupEmail02"/>
+          <include name="signupPhone01"/>
+          <include name="signupEmail03"/>
+          <include name="signupPhone03"/>
           <include name="beforeTest"/>
-          <include name="aPropLoadMethod"/>
-          <include name="checkSameLocation"/>
+          <include name="deleteCookies"/>
+          <include name="signupPhone02"/>
+          <include name="openUrl"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- flight2.FlightScript2 -->
+      </class> <!-- signUp.Runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

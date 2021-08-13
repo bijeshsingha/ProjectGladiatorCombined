@@ -1,0 +1,23 @@
+url=https://www.easemytrip.com/
+
+driver=webdriver.chrome.driver
+
+path= D:\\drivers\\chromedriver.exe
+
+account = spnMyAcc
+
+signUp = shwlogn
+
+enter_email = txtEmail
+
+enter_mobile = txtEmail
+
+continue_button = shwotp
+
+otp =txtEmail1
+
+create=OtpLgnBtn
+
+valid_email_id=hamirask492@gmail.com
+
+logout =//div[@class='user_n_icn']
