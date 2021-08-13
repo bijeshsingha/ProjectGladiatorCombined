@@ -6,8 +6,16 @@
       <class name="hotelBooking.RunnerClass">
         <methods>
           <include name="beforeTest"/>
+          <include name="dataInvalid4" invocation-numbers="0"/>
+          <include name="dataInvalid3"/>
+          <include name="dataValid"/>
+          <include name="dataInvalid2"/>
+          <include name="viewRoom"/>
+          <include name="selectRoomButton"/>
+          <include name="dataInvalid1"/>
           <include name="afterTest"/>
-          <include name="book"/>
+          <include name="bookNow"/>
+          <include name="resultPage"/>
         </methods>
       </class> <!-- hotelBooking.RunnerClass -->
     </classes>

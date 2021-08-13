@@ -1,5 +1,11 @@
 url = https://www.easemytrip.com/
-chromedriver = src/test/resources/drivers/chromedriver.exe
+
+ckey=webdriver.chrome.driver
+cvalue=src/test/resources/drivers/chromedriver.exe
+
+gkey=webdriver.gecko.driver
+gvalue=src/test/resources/drivers/geckodriver.exe
+
 hotelTab = a[href='https://www.easemytrip.com/hotels/']
 search = input[value='Search']
 viewRoom = bookhBtn
