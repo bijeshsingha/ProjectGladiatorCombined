@@ -1,8 +1,8 @@
 url=https://www.easemytrip.com/
 
-driver=webdriver.chrome.driver
+ckey=webdriver.chrome.driver
 
-path= D:\\drivers\\chromedriver.exe
+cvalue= D:\\drivers\\chromedriver.exe
 
 account = spnMyAcc
 
@@ -18,6 +18,4 @@ otp =txtEmail1
 
 create=OtpLgnBtn
 
-valid_email_id=hamirask492@gmail.com
 
-logout =//div[@class='user_n_icn']

@@ -6,14 +6,9 @@
       <class name="signUp.Runner">
         <methods>
           <include name="signupEmail01"/>
-          <include name="signupEmail02"/>
           <include name="signupPhone01"/>
-          <include name="signupEmail03"/>
-          <include name="signupPhone03"/>
           <include name="beforeTest"/>
           <include name="deleteCookies"/>
-          <include name="signupPhone02"/>
-          <include name="openUrl"/>
           <include name="afterTest"/>
         </methods>
       </class> <!-- signUp.Runner -->

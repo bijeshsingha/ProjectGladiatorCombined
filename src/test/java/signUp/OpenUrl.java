@@ -10,7 +10,9 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-public class OpenUrl {
+import frameWork.SignupBase;
+
+public class OpenUrl extends SignupBase {
 	
 WebDriver driver;
 	public OpenUrl(WebDriver driver){
@@ -23,7 +25,7 @@ WebDriver driver;
 	WebDriverWait wt=new WebDriverWait(driver,5);
 	driver.findElement(account).click();             //locating account option    
 	driver.findElement(signUp).click();				//location signup option
-	
+
 	
 	}
 }

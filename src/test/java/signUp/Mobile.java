@@ -1,20 +1,18 @@
 package signUp;
 
 import java.util.Scanner;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import frameWork.SignupBase;
 
-public class Mobile {
+public class Mobile extends SignupBase  {
 	WebDriver driver;
-	
+	 
 	public Mobile(WebDriver driver){
-	this.driver=driver;
-	driver.get("https://www.easemytrip.com/");
-
+		this.driver=driver;
 	}
 	
 	By account=By.id("spnMyAcc");  				//element for hovering over the button to login
@@ -26,42 +24,41 @@ public class Mobile {
 	
 	public void signupMobile(String User,String status) throws InterruptedException
 	{
-		WebDriverWait wt=new WebDriverWait(driver,50);
 		driver.findElement(account).click();             //locating account option    
 		driver.findElement(signUp).click();				//location signup option
 		driver.findElement(enter_mobile).sendKeys(User);//locating textbox for entering mobile number
 		driver.findElement(continue_button).click();	//locating continue button
-		WebDriverWait wt1=new WebDriverWait(driver,5);
+		 wt=new WebDriverWait(driver,5);
 		try {
-			wt1.until(ExpectedConditions.invisibilityOf(driver.findElement(create))); //To check invalid message is displayed or not
+			wt.until(ExpectedConditions.invisibilityOf(driver.findElement(continue_button))); //To check invalid message is displayed or not
 			}
 			catch(Exception e) {
-				if(status.equals("valid")) {         
+				if(status.equals("valid")) {         	//If testcase is valid 
 					Assert.fail(e.getMessage());
 				}
-				else if(status.equals("invalid")) {
-					System.out.println("Testing pass");
+				else if(status.equals("invalid")) {		//If testcase is invalid
+					System.out.println("Invalid Mobile Number");
 				}
 				
 			}
 	}
 	public void signupOtp(String enter_otp,String status) throws InterruptedException
 	{
-		WebDriverWait wt=new WebDriverWait(driver,80);
+		 wt=new WebDriverWait(driver,80);
 		driver.findElement(otp).sendKeys(enter_otp);    //otp will be entered manually
 		driver.findElement(create).click();
 
-		WebDriverWait wt1=new WebDriverWait(driver,5);
+		 wt=new WebDriverWait(driver,5);
 		try {
 			
-			wt1.until(ExpectedConditions.invisibilityOf(driver.findElement(create))); //To check invalid message is displayed or not
+			wt.until(ExpectedConditions.invisibilityOf(driver.findElement(create))); //To check invalid message is displayed or not after clicking on create button
 			}
 			catch(Exception e) {
-				if(status.equals("valid")) {
+				if(status.equals("valid")) {           //If testcase is valid 
 					Assert.fail(e.getMessage());
 				}
-				else if(status.equals("invalid")) {
-					System.out.println("Testing pass");
+				else if(status.equals("invalid")) {		//If testcase is invalid
+					System.out.println("Invalid otp");
 				}
 			}
 		}

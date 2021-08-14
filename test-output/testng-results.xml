@@ -1,73 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="2" ignored="0" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="199453" started-at="2021-08-13T18:15:29 IST" finished-at="2021-08-13T18:18:49 IST">
+  <suite name="Default suite" duration-ms="170766" started-at="2021-08-14T14:21:14 IST" finished-at="2021-08-14T14:24:05 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="199453" started-at="2021-08-13T18:15:29 IST" finished-at="2021-08-13T18:18:49 IST">
+    <test name="Default test" duration-ms="170766" started-at="2021-08-14T14:21:14 IST" finished-at="2021-08-14T14:24:05 IST">
       <class name="signUp.Runner">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:signUp.Runner@68bbe345]" name="beforeTest" is-config="true" duration-ms="21649" started-at="2021-08-13T18:15:30 IST" finished-at="2021-08-13T18:15:51 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:signUp.Runner@1c3a4799]" name="beforeTest" is-config="true" duration-ms="8482" started-at="2021-08-14T14:21:14 IST" finished-at="2021-08-14T14:21:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="7749" started-at="2021-08-13T18:15:51 IST" finished-at="2021-08-13T18:15:59 IST">
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@1c3a4799]" name="deleteCookies" is-config="true" duration-ms="4611" started-at="2021-08-14T14:21:23 IST" finished-at="2021-08-14T14:21:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCookies -->
-        <test-method status="PASS" signature="openUrl()[pri:1, instance:signUp.Runner@68bbe345]" name="openUrl" duration-ms="452" started-at="2021-08-13T18:15:59 IST" description="To check website is opening and signup option available" finished-at="2021-08-13T18:15:59 IST">
+        <test-method status="PASS" signature="report()[pri:0, instance:signUp.Runner@1c3a4799]" name="report" duration-ms="310" started-at="2021-08-14T14:21:27 IST" finished-at="2021-08-14T14:21:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@1c3a4799]" name="deleteCookies" is-config="true" duration-ms="22578" started-at="2021-08-14T14:21:28 IST" finished-at="2021-08-14T14:21:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method status="PASS" signature="openUrl()[pri:1, instance:signUp.Runner@1c3a4799]" name="openUrl" duration-ms="1783" started-at="2021-08-14T14:21:50 IST" description="To check website is opening and signup option available" finished-at="2021-08-14T14:21:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="1397" started-at="2021-08-13T18:15:59 IST" finished-at="2021-08-13T18:16:01 IST">
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@1c3a4799]" name="deleteCookies" is-config="true" duration-ms="6551" started-at="2021-08-14T14:21:52 IST" finished-at="2021-08-14T14:21:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCookies -->
-        <test-method status="PASS" signature="signupEmail02()[pri:2, instance:signUp.Runner@68bbe345]" name="signupEmail02" duration-ms="25465" started-at="2021-08-13T18:16:01 IST" description="To check signup with valid email invalid otp" finished-at="2021-08-13T18:16:26 IST">
+        <test-method status="PASS" signature="signupEmail02()[pri:2, instance:signUp.Runner@1c3a4799]" name="signupEmail02" duration-ms="15699" started-at="2021-08-14T14:21:58 IST" description="To check signup with valid email invalid otp" finished-at="2021-08-14T14:22:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signupEmail02 -->
-        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="3019" started-at="2021-08-13T18:16:26 IST" finished-at="2021-08-13T18:16:29 IST">
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@1c3a4799]" name="deleteCookies" is-config="true" duration-ms="6863" started-at="2021-08-14T14:22:14 IST" finished-at="2021-08-14T14:22:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCookies -->
-        <test-method status="PASS" signature="signupEmail03()[pri:3, instance:signUp.Runner@68bbe345]" name="signupEmail03" duration-ms="2120" started-at="2021-08-13T18:16:29 IST" description="To check signup with invalid email" finished-at="2021-08-13T18:16:31 IST">
+        <test-method status="PASS" signature="signupEmail03()[pri:3, instance:signUp.Runner@1c3a4799]" name="signupEmail03" duration-ms="8004" started-at="2021-08-14T14:22:21 IST" description="To check signup with invalid email" finished-at="2021-08-14T14:22:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signupEmail03 -->
-        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="3779" started-at="2021-08-13T18:16:31 IST" finished-at="2021-08-13T18:16:35 IST">
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@1c3a4799]" name="deleteCookies" is-config="true" duration-ms="4685" started-at="2021-08-14T14:22:29 IST" finished-at="2021-08-14T14:22:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCookies -->
-        <test-method status="PASS" signature="signupPhone02()[pri:4, instance:signUp.Runner@68bbe345]" name="signupPhone02" duration-ms="15412" started-at="2021-08-13T18:16:35 IST" description="To check signup with valid mobile no. invalid otp" finished-at="2021-08-13T18:16:51 IST">
+        <test-method status="PASS" signature="signupPhone02()[pri:4, instance:signUp.Runner@1c3a4799]" name="signupPhone02" duration-ms="18130" started-at="2021-08-14T14:22:34 IST" description="To check signup with valid mobile no. invalid otp" finished-at="2021-08-14T14:22:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signupPhone02 -->
-        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="4852" started-at="2021-08-13T18:16:51 IST" finished-at="2021-08-13T18:16:55 IST">
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@1c3a4799]" name="deleteCookies" is-config="true" duration-ms="3921" started-at="2021-08-14T14:22:52 IST" finished-at="2021-08-14T14:22:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCookies -->
-        <test-method status="PASS" signature="signupPhone03()[pri:5, instance:signUp.Runner@68bbe345]" name="signupPhone03" duration-ms="5251" started-at="2021-08-13T18:16:55 IST" description="To check signup with invalid mobile no." finished-at="2021-08-13T18:17:01 IST">
+        <test-method status="PASS" signature="signupPhone03()[pri:5, instance:signUp.Runner@1c3a4799]" name="signupPhone03" duration-ms="11904" started-at="2021-08-14T14:22:56 IST" description="To check signup with invalid mobile no." finished-at="2021-08-14T14:23:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signupPhone03 -->
-        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="6267" started-at="2021-08-13T18:17:01 IST" finished-at="2021-08-13T18:17:07 IST">
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@1c3a4799]" name="deleteCookies" is-config="true" duration-ms="6219" started-at="2021-08-14T14:23:08 IST" finished-at="2021-08-14T14:23:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCookies -->
-        <test-method status="PASS" signature="signupEmail01()[pri:6, instance:signUp.Runner@68bbe345]" name="signupEmail01" duration-ms="64157" started-at="2021-08-13T18:17:07 IST" description="To check signup with valid email valid otp" finished-at="2021-08-13T18:18:11 IST">
+        <test-method status="FAIL" signature="signupEmail01()[pri:6, instance:signUp.Runner@1c3a4799]" name="signupEmail01" duration-ms="23335" started-at="2021-08-14T14:23:14 IST" description="To check signup with valid email valid otp" finished-at="2021-08-14T14:23:37 IST">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-J77Q8A7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8705c88bbb2344304b8b19156d1543d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-J77Q8A7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8705c88bbb2344304b8b19156d1543d1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at signUp.Email.emailOtp(Email.java:48)
+at signUp.Runner.signupEmail01(Runner.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signupEmail01 -->
-        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@68bbe345]" name="deleteCookies" is-config="true" duration-ms="3809" started-at="2021-08-13T18:18:11 IST" finished-at="2021-08-13T18:18:15 IST">
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:signUp.Runner@1c3a4799]" name="deleteCookies" is-config="true" duration-ms="6058" started-at="2021-08-14T14:23:37 IST" finished-at="2021-08-14T14:23:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCookies -->
-        <test-method status="PASS" signature="signupPhone01()[pri:7, instance:signUp.Runner@68bbe345]" name="signupPhone01" duration-ms="31880" started-at="2021-08-13T18:18:15 IST" description="To check signup with valid mobile no. valid otp" finished-at="2021-08-13T18:18:47 IST">
+        <test-method status="FAIL" signature="signupPhone01()[pri:7, instance:signUp.Runner@1c3a4799]" name="signupPhone01" duration-ms="19195" started-at="2021-08-14T14:23:43 IST" description="To check signup with valid mobile no. valid otp" finished-at="2021-08-14T14:24:03 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (8705c88bbb2344304b8b19156d1543d1)] -> id: OtpLgnBtn] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-J77Q8A7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8705c88bbb2344304b8b19156d1543d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on WINDOWS (8705c88bbb2344304b8b19156d1543d1)] -> id: OtpLgnBtn] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-J77Q8A7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8705c88bbb2344304b8b19156d1543d1
+at org.testng.Assert.fail(Assert.java:97)
+at signUp.Mobile.signupOtp(Mobile.java:58)
+at signUp.Runner.signupPhone01(Runner.java:118)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signupPhone01 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:signUp.Runner@68bbe345]" name="afterTest" is-config="true" duration-ms="2124" started-at="2021-08-13T18:18:47 IST" finished-at="2021-08-13T18:18:49 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:signUp.Runner@1c3a4799]" name="afterTest" is-config="true" duration-ms="2251" started-at="2021-08-14T14:24:03 IST" finished-at="2021-08-14T14:24:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
