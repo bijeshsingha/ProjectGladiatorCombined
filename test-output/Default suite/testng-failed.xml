@@ -3,15 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="emtHotel.NewTest">
+      <class name="emtHotel.HSearchTest">
         <methods>
           <include name="beforeTest"/>
-          <include name="sameDates"/>
+          <include name="yestDate"/>
           <include name="landingPage"/>
-          <include name="searchBar"/>
+          <include name="checkCity"/>
+          <include name="sameDates"/>
+          <include name="disabledInDates"/>
+          <include name="daysGap"/>
           <include name="afterTest"/>
+          <include name="positiveSearch"/>
+          <include name="disabledOutDate"/>
         </methods>
-      </class> <!-- emtHotel.NewTest -->
+      </class> <!-- emtHotel.HSearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

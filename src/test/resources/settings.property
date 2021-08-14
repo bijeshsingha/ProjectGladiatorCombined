@@ -1,7 +1,0 @@
-url = https://www.easemytrip.com/
-hotelTab = a[href='https://www.easemytrip.com/hotels/']
-search = input[value='Search']
-date1=htl_dates
-date1_data=19
-date2=txtCheckOutDate
-date2_data=19
