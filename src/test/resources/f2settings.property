@@ -2,11 +2,11 @@ ckey=webdriver.chrome.driver
 cvalue=src/test/resources/drivers/chromedriver.exe
 url=https://www.easemytrip.com/
 
-oneway=/html[1]/body[1]/form[1]/div[14]/div[2]/div[1]/ul[1]/li[1]
-roundtrip=/html[1]/body[1]/form[1]/div[14]/div[2]/div[1]/ul[1]/li[2]
+oneway=//li[@class='border-lft flig-show click-one bg-color']
+roundtrip=//li[@class='click-round flig-show']
 roundtrip_date=//input[@id='rdate']
 roundtrip_id=21/08/2021
-multicity=/html[1]/body[1]/form[1]/div[14]/div[2]/div[1]/ul[1]/li[3]
+multicity=//li[@class='click-mul border-rht mul-hid']
 
 searchcss=input[onclick='SearchFlightWithArmy();']
 
@@ -31,7 +31,7 @@ date2_data=19
 
 searchcss2=input[onclick='ValidateMuticity();']
 
-defense_tick=/html[1]/body[1]/form[1]/div[14]/div[2]/nav[1]/ul[1]/li[3]/label[1]/span[1]
+defense_tick=//form[@id='frmHome']//li[3]//label[1][1]//span[1]
 defense_dropdown_id=selServiceDepart
 defense_close_class=close_er
 defense_service_id=txtServiceNo
@@ -50,7 +50,7 @@ travel_contact_id=txtCPhone
 travel_submit_id=spnTransaction
 travel_assert_id=txtCountryCode
 
-payment_button=/html[1]/body[1]/form[1]/div[11]/div[6]/div[1]/div[4]/div[2]/div[3]/div[6]/div[3]/div[3]/div[9]
+payment_button=//div[@ng-click="MakevalidateCardAndCoupon('CC')"]
 
 invalid_email=kenadams@gmail
 invalid_contact=999999
